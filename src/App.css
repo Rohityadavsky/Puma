@@ -1,0 +1,358 @@
+.navcontainer{
+  position: fixed;
+  width: 100%;
+  height: 65px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  top: 0;
+  z-index: 100;
+}
+
+.nav_section{
+  width : 45%;
+  display: flex;
+  margin-left: 50px;
+}
+.nav_icon{
+  width: 30%;
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+.nav_logo{
+  width: 10%;
+  height: 70%;
+  margin: 10px 0 10px 0;
+}
+.nav_logo_img{
+  width: 100%;
+  height: 100%;
+}
+
+.nav_catgories{
+  color: gray;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 18px;
+  width: 90%;
+  padding-bottom: 0;
+  font-weight: 600;
+  text-decoration: none;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 100;
+  
+  font-size: 17px;
+ 
+}
+.nav_catgories>div{
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+}
+
+.nav_catgories>div:hover{
+  border-bottom: 4px solid #ae946d;
+  color: gray;
+  cursor: pointer;
+}
+.nav_search{
+  width: 40%;
+  background-color: black;
+
+}
+.navbar-icons{
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 22px;
+  padding-top: 15px;
+}
+.navbar-icons-div{
+  color: white;
+  font-weight: 800;
+}
+.navbar-icons-div:hover{
+ color: gray;
+}
+.nav_input{
+  background-color: black;
+  border: 1px solid rgba(255,255,255,.2);
+  height: 70%;
+  color: white;
+  margin-top: 8px;
+  padding-left: 5px;
+  border-left: none;
+  margin-left: 0px;
+}
+.nav_input:focus{
+  outline: none;
+}
+.nav_search_icon{
+  border: 1px solid rgba(255,255,255,.2);
+  height: 74%;
+  margin-top: 8px;
+  width: 30px;
+  border-right: none;
+  margin-right: 0px;
+}
+.nav_search_icon>*{
+  
+  margin-top: 10px;
+  width: 30px;
+  height: 20px;
+}
+.links{
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+}
+.links:hover{
+  border-bottom: 2px solid #ae946d;
+  color: gray;
+  cursor: pointer;
+}
+.cartno{
+  
+  background-color: #c00;;
+  text-align: center;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  margin: -37px 0 0 10px;
+  padding-bottom: 10px;
+  font-size: 15px;
+}
+
+
+.nav-bottom{
+  width: 100%;
+  height: 100px;
+  background-color: blue;
+  border:none;
+  color: white;
+  text-align: center;
+  margin-top: 65px;
+}
+
+.main-section{
+  background-image: url("https://images.puma.com/image/upload/q_auto,f_auto,w_1440/regional/~regional~IND~others~KOP~July2022~Desktop-EOSS-banner-july-refresh.jpg/fmt/jpg/fmt/png");
+  height: 500px;
+}
+
+.banner_content1{
+  font-weight:100;
+  color: white;
+}
+
+.btns_div{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+.btn{
+  font-family: FFDINforPuma,-apple-system,system-ui,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+  font-size: .9375rem;
+  font-weight: 600;
+  letter-spacing: .025rem;
+  line-height: .9375rem;
+  padding: 0.8125rem 1rem;
+  text-transform: uppercase;
+  white-space: normal;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 300px;
+  
+}
+.btn:hover{
+  background-color: #343a40;
+}
+
+.banner2{
+ 
+  height: 400px;
+  background-image: url("https://images.puma.com/image/upload/q_auto,f_auto,w_1440/regional/~regional~IND~others~KOP~July2022~outlet-EOSS-banner-july.jpg/fmt/jpg/fmt/png");
+}
+h1{
+  font-size: 2.5rem;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: black;
+  margin-top: 10px;
+  font-weight: 200;
+}
+h3{
+  font-size: 1.5rem;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+  margin-top: 50px;
+  font-weight: 200;
+}
+
+.btn1{
+  font-family: FFDINforPuma,-apple-system,system-ui,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+  
+  font-weight: 600;
+  letter-spacing: .025rem;
+  
+  padding: 0.8125rem 1rem;
+  
+  white-space: normal;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 200px;
+  
+}
+.btn1:hover{
+  background-color: #343a40;
+}
+
+
+
+
+#footer {
+ 
+  display: flex;
+  align-items: center;
+  height: 74vh;
+
+  background-color: black;
+  position: relative;
+  margin-top: 1rem;
+}
+.footer_info {
+ 
+  display: flex;
+  justify-content: space-between;
+  width: 94%;
+  margin: auto;
+}
+.left {
+ 
+  width: 70%;
+  display: flex;
+  gap: 20px;
+}
+.left .left_1,
+.left_2 {
+  width: 470px;
+  
+}
+.left_1 h2,
+.left_2 h2,
+.right h2 {
+  padding: 12px 0;
+  
+  color: white;
+  font-weight: 600;
+  font-size: 19px;
+  
+}
+.left .footer_links {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 9px;
+  
+  line-height: 10px;
+}
+.left .footer_links ul {
+  padding: 0;
+  margin: 0;
+}
+.left .footer_links ul li {
+  list-style: none;
+  margin: 15px 0;
+}
+.left .footer_links ul li a {
+  color: rgb(128, 120, 120);
+  transition: all 0.4s ease-in;
+  font-size: 14px;
+  
+}
+.left .footer_links ul li a:hover {
+  color: rgb(253, 253, 253);
+}
+ .right {
+  width: 270px;
+
+}
+ .right .social_icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 96%;
+  
+}
+ .right .social_icons i {
+  font-size: 26px;
+  color: white;
+}
+ .right .social_icons:hover i {
+  color: rgb(150, 140, 140);
+}
+ .right .social_icons i:hover {
+  color: rgb(253, 253, 253);
+}
+
+.company {
+  align-items: center;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+ 
+  border-top: 0.1px solid gray;
+  padding: 10px;
+}
+.company .info p {
+  font-size: 10px;
+  border-bottom: 1px solid white;
+  padding: 10px 0;
+  cursor: pointer;
+  color: white;
+}
+.right hr {
+  color: rgb(201, 192, 192);
+  margin-top: 9rem;
+}
+#footer .hr_line {
+  position: absolute;
+  bottom: 11px;
+  color: white;
+  width: 98%;
+}
+.hr_line hr {
+  color: white;
+}
+.about_company {
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+  margin: 13px 10px;
+  margin-left: 77px;
+  display: flex;
+}
+#country{
+    width: 20%;
+    padding: 10px 15px;
+    border: 1px solid gray;
+    background-color: black;
+    color: white;
+}
+.social_icons>a{
+  font-size: 25px;
+  color: rgb(128, 120, 120);
+}
+.social_icons>a:hover{
+  font-size: 25px;
+  color: white;
+}
+li>a{
+  
+  text-decoration: none;
+}
